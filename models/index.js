@@ -17,6 +17,9 @@ db.connection = sequelize;
 // Importar modelos
 db.Customer = require('./customer')(sequelize,Sequelize);
 db.Flight = require('./flight')(sequelize,Sequelize);
+db.Reservation = require('./reservation')(sequelize,Sequelize);
+db.Payment = require('./payment')(sequelize,Sequelize);
+db.Passenger = require('./passenger')(sequelize,Sequelize);
 
 module.exports = db;
 
