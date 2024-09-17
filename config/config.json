@@ -1,0 +1,9 @@
+{
+    "development": {
+      "username": "root",
+      "password": "poyoSkato*666",
+      "database": "airline_orm",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
